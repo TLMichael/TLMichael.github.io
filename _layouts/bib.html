@@ -78,13 +78,13 @@
       <div class="periodical">
       {% if entry.type == "article" %}
         {% if entry.abbr %}
-          In: {{entry.journal}} <b>({{entry.abbr}})</b>,
+          In: {{entry.journal}} <b class="title">({{entry.abbr}})</b>,
         {% else %}
           In: {{entry.journal}},
         {% endif %}
       {% elsif entry.type == "inproceedings" %}
         {% if entry.abbr %}
-          In: {{entry.booktitle}} <b>({{entry.abbr}})</b>,
+          In: {{entry.booktitle}} <b class="title">({{entry.abbr}})</b>,
         {% else %}
           In: {{entry.booktitle}},
         {% endif %}

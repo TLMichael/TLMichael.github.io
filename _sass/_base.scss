@@ -56,6 +56,7 @@ blockquote {
 
 .profile {
   margin-left: 1rem;
+  margin-right: -1rem;
   width: 100%;
 
   .address {
@@ -379,6 +380,7 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
+  font-family: Trebuchet MS, sans-serif;
   margin-top: 2rem;
   h1 {
     color: var(--global-theme-color);
@@ -429,7 +431,7 @@ footer.sticky-bottom {
         }
       }
       .title {
-        font-weight: bolder;
+        font-weight: 600;
       }
       .author {
         a {
@@ -562,4 +564,17 @@ html.transition *:after {
   color: var(--global-text-color-light);
   font-size: 0.875rem;
   padding-top: 0.25rem;
+}
+
+.name {
+  font-family: 'Averia Serif Libre';
+}
+
+.post-title, .post-header, .clearfix {
+  font-family: Trebuchet MS, sans-serif;
+}
+
+.boldtext {
+  font-family: Trebuchet MS, sans-serif;
+  font-weight: 600;
 }

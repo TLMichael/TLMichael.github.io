@@ -6,9 +6,10 @@ years: [2021, 2020]
 nav: true
 ---
 
-(* Equal contribution; † Corresponding author)
-
 <div class="publications">
+
+<!-- (* Equal contribution; † Corresponding author) -->
+(* Equal contribution)
 
 {% for y in page.years %}
   <h2 class="year">{{y}}</h2>

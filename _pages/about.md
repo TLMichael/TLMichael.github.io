@@ -30,6 +30,7 @@ My research interests include: Computer Vision and Machine Learning. Currently, 
 - Adversarial Robustness
 - Data Poisoning
 - Trustworthy Machine Learning
+<!-- - <b class="boldtext">Trustworthy Machine Learning</b> -->
 
 
 

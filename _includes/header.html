@@ -5,7 +5,7 @@
     <div class="container">
       {% if page.title != "about" %}
       <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
-       {% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }} {{ site.middle_name }}  {{ site.last_name }}</span>{% else %}{{ site.title }}{% endif %}
+       {% if site.title == "blank" %}<span class="name">{{ site.first_name }} {{ site.middle_name }}  {{ site.last_name }}</span>{% else %}{{ site.title }}{% endif %}
       </a>
       {% elsif site.enable_navbar_social %}
         <!-- Social Icons -->
@@ -90,3 +90,6 @@
   </nav>
 
 </header>
+
+
+<link rel="stylesheet" href=//fonts.googleapis.com/css?family=Averia+Serif+Libre|Merriweather|Roboto+Mono>

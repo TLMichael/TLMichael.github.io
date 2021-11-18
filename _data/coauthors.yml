@@ -16,3 +16,19 @@
 
   - firstname: ["Carl Philipp Emanuel", "C. P. E."]
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+
+"Ning":
+  - firstname: ["Kun-Peng", ]
+    url: https://ningkp.github.io/
+
+"Ning*":
+  - firstname: ["Kun-Peng", ]
+    url: https://ningkp.github.io/
+
+"Wei":
+  - firstname: ["Hongxin"]
+    url: https://hongxin001.github.io/
+
+"Feng":
+  - firstname: ["Lei"]
+    url: https://lfeng-ntu.github.io/
